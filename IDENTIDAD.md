@@ -4,11 +4,11 @@
 > sincrónica** del examen. Toma menos de 5 minutos y es lo único con horario fijo:
 > después trabajas a tu ritmo hasta el plazo del día siguiente.
 
-- **Nombre completo:**
-- **Cédula:**
-- **NRC:**
-- **Nonce del examen:**            <!-- código publicado por el docente en la sesión -->
-- **Fecha y hora de inicio:**      <!-- formato: 2026-XX-XX HH:MM -->
+- **Nombre completo: Samantha Soledad Novillo Betancourt**
+- **Cédula:175104283**
+- **NRC: 30405**
+- **Nonce del examen: AGS-2026**            <!-- código publicado por el docente en la sesión -->
+- **Fecha y hora de inicio: 2026-07-30 20:10**      <!-- formato: 2026-XX-XX HH:MM -->
 
 ---
 
@@ -17,13 +17,13 @@
 Sean `NN` los **dos últimos dígitos** de mi cédula. No hay cálculos: se copian dígitos y
 se busca en una tabla.
 
-| # | Parámetro | Cómo se obtiene | Mi valor |
-|:---:|-----------|-----------------|----------|
-| — | `NN` | los 2 últimos dígitos de mi cédula | |
-| 1 | Nombre de la tabla | `tbl_productos_base_` + `NN` | |
-| 2 | Puerto | `81` + `NN` | |
-| 3 | Categoría | según el **último dígito** (tabla de abajo) | |
-| — | Audiencia para el prompt de IA | según la categoría | |
+| # | Parámetro | Cómo se obtiene | Mi valor                   |
+|:---:|-----------|-----------------|----------------------------|
+| — | `NN` | los 2 últimos dígitos de mi cédula | 83                         |
+| 1 | Nombre de la tabla | `tbl_productos_base_` + `NN` | tbl_productos_base_83      |
+| 2 | Puerto | `81` + `NN` | 8183                       |
+| 3 | Categoría | según el **último dígito** (tabla de abajo) | Café                       |
+| — | Audiencia para el prompt de IA | según la categoría | cafeterías de especialidad |
 
 **Tabla de categorías:**
 
@@ -51,9 +51,9 @@ se busca en una tabla.
 > haberlo entregado y C8 se califica en nivel 1.
 
 - **Enlace al video (5 min, cámara + pantalla):**
-- **Plataforma:**                  <!-- Drive institucional / OneDrive / YouTube no listado -->
+- **Plataforma:** YouTube                  <!-- Drive institucional / OneDrive / YouTube no listado -->
 - **Acceso verificado en incógnito:**   ☐ Sí
-- **Duración real:**
+- **Duración real: **
 
 ---
 
@@ -63,4 +63,4 @@ Declaro que este repositorio es de mi autoría individual, que sustentaré oralm
 decisión de diseño que contiene, y que el historial de commits refleja fielmente el
 proceso de desarrollo que realicé.
 
-**Firma (nombre completo):**
+**Firma (nombre completo): Samantha Soledad Novillo Betancourt**
